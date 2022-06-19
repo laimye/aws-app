@@ -1,0 +1,10 @@
+{
+  "watch": [
+    "server/**/*.js",
+    "vite.config.js",
+    ".env"
+  ],
+  "events": {
+    "restart": "node -e 'console.clear()'"
+  }
+}
