@@ -7,9 +7,6 @@ export default defineConfig({
     emptyOutDir: true,
     outDir: new URL('./server/public/', import.meta.url).pathname
   },
-  server: {
-    middlewareMode: 'html'
-  },
   root: new URL('./client/', import.meta.url).pathname,
   publicDir: new URL('./client/static/', import.meta.url).pathname
 })
